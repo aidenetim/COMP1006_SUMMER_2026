@@ -43,6 +43,7 @@ function getGradeStatus($score) {
             <section class="product-grid">
                 <?php if(empty($students)): ?>
                     <p>No students found.</p>
+
                 <?php else: ?>
                     <?php foreach($students as $item): ?>
                         <div class="product-card">
@@ -53,6 +54,7 @@ function getGradeStatus($score) {
                         </div>
                     <?php endforeach; ?>
                 <?php endif; ?>
+                
             </section>
         </main>
 
