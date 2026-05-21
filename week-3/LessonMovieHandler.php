@@ -10,7 +10,7 @@
 
         // this pulls the movie dataset from the API
 
-        public function fetchPopular($selectedPage = 1){
+        public function fetchCurrentPopular($selectedPage = 1){
             // constructing the string with newly assigned class properties
             $endpointUrl = "{$this->targetURL}/movie/popular?api_key={$this->securityKey}&language=en-US&page=" . intval($selectedPage);
             $rawJsonString = @file_get_contents($endpointUrl);

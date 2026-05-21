@@ -3,6 +3,6 @@
 
     //now add a base url for TMDB
 
-    define("TMDB_API_URL", "https://api.themoviedb.org/3")
+    define("TMDB_BASE_URL", "https://api.themoviedb.org/3")
 
 ?>
