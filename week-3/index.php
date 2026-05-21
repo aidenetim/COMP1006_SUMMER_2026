@@ -11,5 +11,5 @@
     //loads the website
     require_once "views/movies.view.php";
     //can tell whats ai based on bootstrap
-
+    //right, page source, copy all, add through validator
 ?>
